@@ -7,17 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5213823422D397BE00A80398 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5213823322D397BE00A80398 /* Image.swift */; };
+		5213823622D39C2600A80398 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5213823522D39C2600A80398 /* SignUp.swift */; };
+		5213823A22D39DC900A80398 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5213823922D39DC900A80398 /* CustomButton.swift */; };
+		5213823C22D3A3C600A80398 /* UIbutton+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5213823B22D3A3C600A80398 /* UIbutton+Design.swift */; };
+		5213823E22D3B73700A80398 /* UIViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5213823D22D3B73700A80398 /* UIViewDesign.swift */; };
 		5215128122D3826400304963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5215128022D3826400304963 /* AppDelegate.swift */; };
-		5215128322D3826400304963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5215128222D3826400304963 /* ViewController.swift */; };
+		5215128322D3826400304963 /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5215128222D3826400304963 /* LoginVc.swift */; };
 		5215128622D3826400304963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5215128422D3826400304963 /* Main.storyboard */; };
 		5215128822D3826600304963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5215128722D3826600304963 /* Assets.xcassets */; };
 		5215128B22D3826600304963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5215128922D3826600304963 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5213823322D397BE00A80398 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		5213823522D39C2600A80398 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		5213823922D39DC900A80398 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5213823B22D3A3C600A80398 /* UIbutton+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIbutton+Design.swift"; sourceTree = "<group>"; };
+		5213823D22D3B73700A80398 /* UIViewDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewDesign.swift; sourceTree = "<group>"; };
 		5215127D22D3826400304963 /* TravelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5215128022D3826400304963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5215128222D3826400304963 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5215128222D3826400304963 /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
 		5215128522D3826400304963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5215128722D3826600304963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5215128A22D3826600304963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +45,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5213823722D39C3600A80398 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5215128222D3826400304963 /* LoginVc.swift */,
+				5213823522D39C2600A80398 /* SignUp.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5213823822D39C4300A80398 /* HelperForDesign */ = {
+			isa = PBXGroup;
+			children = (
+				5213823322D397BE00A80398 /* Image.swift */,
+				5213823922D39DC900A80398 /* CustomButton.swift */,
+				5213823B22D3A3C600A80398 /* UIbutton+Design.swift */,
+				5213823D22D3B73700A80398 /* UIViewDesign.swift */,
+			);
+			path = HelperForDesign;
+			sourceTree = "<group>";
+		};
 		5215127422D3826400304963 = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				5215128022D3826400304963 /* AppDelegate.swift */,
-				5215128222D3826400304963 /* ViewController.swift */,
+				5213823722D39C3600A80398 /* Controller */,
+				5213823822D39C4300A80398 /* HelperForDesign */,
 				5215128422D3826400304963 /* Main.storyboard */,
 				5215128722D3826600304963 /* Assets.xcassets */,
 				5215128922D3826600304963 /* LaunchScreen.storyboard */,
@@ -135,8 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5215128322D3826400304963 /* ViewController.swift in Sources */,
+				5215128322D3826400304963 /* LoginVc.swift in Sources */,
+				5213823622D39C2600A80398 /* SignUp.swift in Sources */,
+				5213823422D397BE00A80398 /* Image.swift in Sources */,
+				5213823C22D3A3C600A80398 /* UIbutton+Design.swift in Sources */,
 				5215128122D3826400304963 /* AppDelegate.swift in Sources */,
+				5213823E22D3B73700A80398 /* UIViewDesign.swift in Sources */,
+				5213823A22D39DC900A80398 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
